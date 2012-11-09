@@ -1,0 +1,89 @@
+Keith Gable
+ITD 3233 - Data Structures Using C++
+Exercise 1.4
+
+1.
+	target=43:
+	1(idx): l=0,m=4,h=9     1(val): l=18,m=52,h=90
+	2(idx): l=0,m=1,h=3     2(val): l=18,m=40,h=50
+	3(idx): l=2,m=2,h=3     3(val): l=46,m=46,h=50
+	(not found)
+
+	target=40:
+	1(idx): l=0,m=4,h=9     1(val): l=18,m=52,h=90
+	2(idx): l=0,m=1,h=3     2(val): l=18,m=40,h=50
+	(found)
+
+	target=90:
+	1(idx): l=0,m=4,h=9     1(val): l=18,m=52,h=90
+	2(idx): l=5,m=7,h=9     2(val): l=58,m=70,h=90
+	3(idx): l=8,m=8,h=9     3(val): l=77,m=77,h=90
+	4(idx): l=9,m=9,h=9     4(val): l=90,m=90,h=90
+	(found)
+
+2.
+	Best case - number being looked for is in the middle.
+	Worst case - number being looked for is at the end or beginning.
+	Catastrophic case - list is not in order and therefore invalid results occur.
+
+3. 
+	A symbol table is a data structure used by a language translator such as a compiler
+	or interpreter, where each identifier in a program's source code is associated with
+	information such as its type, scope level and sometimes its location.
+
+	Using a sequential search to locate a symbol is not practical because:
+	1) it is slow
+	2) the symbol table may need to be read several times to locate needed symbols, and
+	   if loading the symbol table is slow, it will compound over time.
+
+4.
+	Main memory will be faster because memory can be accessed at random locations a lot
+	easier than a hard disk or floppy disk can, because hard disks and floppy disks work
+	sequentially. And sequential searches aren't really the fastest searches ever.
+
+5.
+	19.
+	
+	keith@keith ~ $ irb
+	irb(main):001:0> a = 1000000
+	=> 1000000
+	irb(main):002:0> a=a/2
+	=> 500000
+	irb(main):003:0> a=a/2
+	=> 250000
+	irb(main):004:0> a=a/2
+	=> 125000
+	irb(main):005:0> a=a/2
+	=> 62500
+	irb(main):006:0> a=a/2
+	=> 31250
+	irb(main):007:0> a=a/2
+	=> 15625
+	irb(main):008:0> a=a/2
+	=> 7812
+	irb(main):009:0> a=a/2
+	=> 3906
+	irb(main):010:0> a=a/2
+	=> 1953
+	irb(main):011:0> a=a/2
+	=> 976
+	irb(main):012:0> a=a/2
+	=> 488
+	irb(main):013:0> a=a/2
+	=> 244
+	irb(main):014:0> a=a/2
+	=> 122
+	irb(main):015:0> a=a/2
+	=> 61
+	irb(main):016:0> a=a/2
+	=> 30
+	irb(main):017:0> a=a/2
+	=> 15
+	irb(main):018:0> a=a/2
+	=> 7
+	irb(main):019:0> a=a/2
+	=> 3
+	irb(main):020:0> a=a/2
+	=> 1
+
+

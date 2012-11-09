@@ -1,0 +1,36 @@
+dbg: cc#372802490654059 len=15 par=1
+dbg: cur_digit=3 pos=0 chk=0
+dbg: cur_digit=7 pos=1 chk=3
+dbg: cur_digit=2 pos=2 chk=8
+dbg: cur_digit=8 pos=3 chk=10
+dbg: cur_digit=0 pos=4 chk=17
+dbg: cur_digit=2 pos=5 chk=17
+dbg: cur_digit=4 pos=6 chk=21
+dbg: cur_digit=9 pos=7 chk=25
+dbg: cur_digit=0 pos=8 chk=34
+dbg: cur_digit=6 pos=9 chk=34
+dbg: cur_digit=5 pos=10 chk=37
+dbg: cur_digit=4 pos=11 chk=42
+dbg: cur_digit=0 pos=12 chk=50
+dbg: cur_digit=5 pos=13 chk=50
+dbg: cur_digit=9 pos=14 chk=51
+3728 024906 54059 is valid
+dbg: cc#3256103143299238 len=16 par=0
+dbg: cur_digit=3 pos=0 chk=0
+dbg: cur_digit=2 pos=1 chk=6
+dbg: cur_digit=5 pos=2 chk=8
+dbg: cur_digit=6 pos=3 chk=9
+dbg: cur_digit=1 pos=4 chk=15
+dbg: cur_digit=0 pos=5 chk=17
+dbg: cur_digit=3 pos=6 chk=17
+dbg: cur_digit=1 pos=7 chk=23
+dbg: cur_digit=4 pos=8 chk=24
+dbg: cur_digit=3 pos=9 chk=32
+dbg: cur_digit=2 pos=10 chk=35
+dbg: cur_digit=9 pos=11 chk=39
+dbg: cur_digit=9 pos=12 chk=48
+dbg: cur_digit=2 pos=13 chk=57
+dbg: cur_digit=3 pos=14 chk=59
+dbg: cur_digit=8 pos=15 chk=65
+3256 1031 4329 9238 is invalid
+*** Run with `ruby -d test.rb` to see debugging info.

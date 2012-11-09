@@ -1,0 +1,36 @@
+Keith Gable
+ITD 3233 - Data Structures Using C++
+Exercise 2.1
+
+1.
+	physical size - its capacity and number of memory locations
+	available for elements
+
+	logical size - the number of elements stored in the vector
+
+2.
+	a) safer because the physical and logical size is known (no overwriting
+	   of memory)
+	b) convenient because it is not necessary to keep track of the physical
+	   and logical size
+
+3.
+	Crashing the program based on this error condition is a major inconvenience
+	that may cause people to lose data. Returning false if the function doesn't
+	complete is the best solution, but it encourages users and programmers to
+	call the function without really paying attention to important details, and
+	this leads to mistakes. And mistakes lead to horribly designed projects,
+	and mistakes lead to Windows Millenium Edition.
+
+4.
+	This is a good idea because the ordered collection would have some sort of
+	bounds protection. It would, however, occupy more or the same amount of
+	memory due to it having to store its maxLen and curLen. On some systems,
+	this tradeoff will not be significant, and having the ability to protect
+	against buffer overflows is more important than the small speed increase
+	warranted by not having to store that extra information.
+
+5, 6, 7, 8.
+	(see code)
+
+

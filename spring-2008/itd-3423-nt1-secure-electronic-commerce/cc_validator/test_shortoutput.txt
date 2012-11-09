@@ -1,0 +1,3 @@
+3728 024906 54059 is valid
+3256 1031 4329 9238 is invalid
+*** Run with `ruby -d test.rb` to see debugging info.

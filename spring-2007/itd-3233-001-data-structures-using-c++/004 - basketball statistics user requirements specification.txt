@@ -1,0 +1,26 @@
+USER REQUIREMENTS SPECIFICATION FOR BASKETBALL STATISTICS SYSTEM
+================================================================
+
+The product should load a database of previously entered statistics and show an
+empty table of statistics. The user will at this point have the option to:
+
+ * View past statistics in a raw data format.
+ * View past statistics in a graphical format.
+ * Export past statistics to HTML, PDF, or a printer.
+ * Track new statistics.
+
+This product will be a single-document interface.
+
+Past statistics will be viewed in the statistics table, as well as new stats.
+
+The stats that will be kept will be standard basketball statistics, like who
+shot a ball, if the shot was successful, and how many points the shot was
+worth.
+
+It should be designed for tracking the statistics of one team, but should
+keep additional statistics for the opposing team, though it shouldn't need to
+be as detailed.
+
+The UI should feel like Microsoft Excel, but function more fluidly than Excel.
+It should run on MacOS X, Windows XP, and Windows Vista using only the
+programs provided by each operating system. A bonus if it runs on Linux/Unix.
